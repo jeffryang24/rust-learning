@@ -1,2 +1,2 @@
-# rust-learning
-Rust Learning
+# Rust Learning
+Rust Learning Repository
