@@ -6,7 +6,7 @@ fn main() {
     println!("{no:>width$}", no = 1, width = 5);
     println!("{no:>0width$}", no = 1, width = 6);
     println!("My name is {0}, {1} {0}", "Bond", "James");
-
+    println!("{1} {} {0} {}", 1, 2);
     #[allow(dead_code)]
     struct Structure(i32);
 }
