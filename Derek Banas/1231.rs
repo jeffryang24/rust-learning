@@ -20,4 +20,8 @@ fn main() {
     println!("e ^ 2 = {}", 2f32.exp());
     println!("log(2) = {}", 2f32.ln());
     println!("log10(2) = {}", 2f32.log10());
+    println!("90 to radians = {}", 90f32.to_radians());
+    println!("PI to degrees = {}", 3.14f32.to_degrees());
+    println!("Max 4, 5 = {}", 4f32.max(5f32));
+    println!("Min 4, 5 = {}", 4f32.min(5f32));
 }
